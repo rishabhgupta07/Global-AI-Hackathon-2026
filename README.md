@@ -1,1 +1,1 @@
-# Global-AI-Hackathon
+# Global-AI-Hackathon prototype 1
