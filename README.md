@@ -29,27 +29,22 @@ Traditional news is often framed with selective language that distorts objective
    ```bash
    git clone [https://github.com/your-username/Global-AI-Hackathon.git](https://github.com/your-username/Global-AI-Hackathon.git)
    cd Global-AI-Hackathon
+   ```
 
 2. **Run the setup script:**
+   ```bash
    chmod +x setup.sh
    ./setup.sh
+   ```
 
 3. **Add your API Key:**
-Create a file at .streamlit/secrets.toml and add:
-GEMINI_API_KEY = "your_api_key_here"
+   ```bash
+   Create a file at .streamlit/secrets.toml and add:
+   GEMINI_API_KEY = "your_api_key_here"
+   ```
 
 4. **Launch the app:**
-source .venv/bin/activate
-python -m streamlit run app.py
-
-
-### 💡 Summary Table for Your Project Files
-| File | Purpose | Professional Tip |
-| :--- | :--- | :--- |
-| **`.gitignore`** | Keeps repo clean. | Never commit `secrets.toml` or `.venv/`. |
-| **`setup.sh`** | Automates setup. | Makes your project "one-click" for the judges. |
-| **`README.md`** | Project manual. | Use it to explain the **"why"** behind your project. |
-| **`.streamlit/secrets.toml`** | Stores API keys. | This is the standard way to handle keys in Streamlit. |
-
-[Build a professional Streamlit dashboard](https://www.youtube.com/watch?v=09Uf_9-9p_o)
-This video is relevant because it shows how to design and organize a professional-looking dashboard in Streamlit, which will help you make a great impression during the hackathon.
+   ```bash
+   source .venv/bin/activate
+   python -m streamlit run app.py
+   ```
